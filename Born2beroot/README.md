@@ -431,6 +431,11 @@ and remember this are different files we edit "ssh_config" and "sshd_confid"
 here you also have to uncomment and change port to 4242, and uncomment PermitRootLogin, for saving use similar method as previous
 ![Alt text](<Photos/Screen Shot 2024-01-15 at 4.58.50 PM.png>) 
 
+restart ssh
+```
+sudo systemctl restart ssh
+```
+
 now for checking your ssh status type
 ```
 sudo service ssh status
